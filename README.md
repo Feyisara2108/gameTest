@@ -1,66 +1,13 @@
-## Foundry
+# Web3Bridge Task 1: Smart Contract Suite
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## 🚀 Deployed Contracts (Lisk Sepolia)
 
-Foundry consists of:
+The following contracts were successfully deployed to Chain ID `4202`:
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+* **ERC20**: `0xCB914FDeC791Ca7eEE14527AA41C6A089F13Fbb5`
+* **SaveAsset**: `0x30b9Bc0D1de0D88fD9d6254879eF157b6e8Ca92b`
+* **SaveEther**: `0x0624048ffB2d1eb417924FAc452540c207f7F2fE`
+* **SaveStore**: `0x257C870fdEc26040548c05cbA082E78eDC22F34B`
+* **Todo**: `0x06d6d68bd3D7CF465aB60A4cC32025D699427474`
+* **School Manager**: `0x3Ee9bA338b3217741E112FeCEBb22C2f3aCbd7d1`
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
